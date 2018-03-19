@@ -1,0 +1,14 @@
+#showcase{
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+#leftbut{
+	float: left;
+}
+#rightbut{
+	float: right;
+}
+#navbars{
+	min-height: 35px;
+}

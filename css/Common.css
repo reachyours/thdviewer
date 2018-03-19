@@ -1,0 +1,19 @@
+@charset "utf-8";
+.uploadFile {
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.uploadFile #fileComp {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.xsSubBtn {
+	width: 100%;
+}
+
+.layui-btn+.layui-btn {
+	margin-left: 0;
+}

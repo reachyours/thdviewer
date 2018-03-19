@@ -1,0 +1,295 @@
+
+
+.back{
+	
+	color: red;
+	display: none;
+
+	position: absolute;
+	z-index: 9999;
+}
+.back1{
+	color: red;
+	display: none;
+	position: absolute;
+	
+	z-index: 9999;
+}
+
+.myframe{
+	display: none;
+	
+}
+#myframe{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/*#mod_select button{
+	font-size:1.6rem;
+}*/
+#d3_img{
+	display: none;
+}
+
+.backimg{
+	height: 0.3rem;
+
+}
+#mod_360{
+	/*background-color:*/
+}
+.mod_btn1{
+	/* width: 1.5rem; */
+	width: 50px;
+}
+.mod_btn2{
+	/* width: 1.5rem; */
+	width: 50px;
+}
+.mod_btn1{
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+/* 平板电脑 */
+@media (min-width: 768px) and (max-width:992px) {
+	.linkimg img{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.header_name{
+		text-align: center;
+		height: 35px;
+		background-color:  #5bc0de;
+		color: white;
+		padding-right: 0px;
+		padding-left: 0px;
+	   	border-radius: 6px;
+	    border: 1px solid #428bca;
+	   
+	
+	}
+	.toplist{
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.img1 img{
+		height: 0.8rem;
+		
+	}
+	.img1,.idv,.back,.back1{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.linkimg{
+		height: 4.2rem;
+		padding-top: 20px;
+
+	}
+	#mod_select{
+		padding-left: 0px;
+		padding-right: 0px;
+		text-align: center;
+	}
+	.myframe{
+		position: absolute;
+		top: 0px;
+	}
+	.img1{
+		display: inline-block;
+		
+	}
+	.imgv{
+		padding-top: 0.14rem;
+	}
+	.imgv2{
+		padding-top: 0.1rem;
+	}
+	.introduce{
+		display: inline-block;
+		width: 0.4rem;
+		height:0.4rem;
+		border-radius: 0.2rem;
+		color: #fff;
+    	background-color: #b94; 
+    	text-align: center;
+    	line-height: 0.4rem;
+    	position: absolute;
+    	top:0.2rem;
+		left: 45%;
+		display: none;
+	}
+	#mymodal{
+		top: 10%;
+	}
+	.footer{
+		background-color: rgb(87,88,109);
+		color:white;
+		text-align: center;
+	}
+
+}
+
+/* 手机 */
+@media (max-width:767px) {
+	
+	.img2{
+	height: 120px;
+	
+	}
+	.linkimg img{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.header_name{
+		text-align: center;
+		height: 35px;
+		background-color:  #5bc0de;
+		color: white;
+		padding-right: 0px;
+		padding-left: 0px;
+	   	border-radius: 6px;
+	    border: 1px solid #428bca;
+	   
+	
+	}
+	.toplist{
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.img1 img{
+		height: 0.8rem;
+		
+	}
+	.img1,.idv,.back,.back1{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.linkimg{
+		height: 4.2rem;
+		padding-top: 20px;
+
+	}
+	#mod_select{
+		padding-left: 0px;
+		padding-right: 0px;
+		text-align: center;
+	}
+	.myframe{
+		position: absolute;
+		top: 0px;
+	}
+	.img1{
+		display: inline-block;
+		
+	}
+	.imgv{
+		padding-top: 0.14rem;
+	}
+	.imgv2{
+		padding-top: 0.1rem;
+	}
+	.introduce{
+		display: inline-block;
+		width: 0.4rem;
+		height:0.4rem;
+		border-radius: 0.2rem;
+		color: #fff;
+    	background-color: #b94; 
+    	text-align: center;
+    	line-height: 0.4rem;
+    	position: absolute;
+    	top:0.2rem;
+		left: 45%;
+		display: none;
+	}
+	#mymodal{
+		top: 10%;
+	}
+	.footer{
+		background-color: rgb(87,88,109);
+		color:white;
+		text-align: center;
+	}
+
+}
+@media (min-width:993px) {
+	.linkimg img{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	.header_name{
+		text-align: center;
+		height: 35px;
+		background-color:  #5bc0de;
+		color: white;
+		padding-right: 0px;
+		padding-left: 0px;
+	   	border-radius: 6px;
+	    border: 1px solid #428bca;
+	   
+	
+	}
+	.toplist{
+		text-align: center;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.img1 img{
+		height: 0.8rem;
+		
+	}
+	.img1,.idv,.back,.back1{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.linkimg{
+		height: 3.7rem;
+		padding-top: 20px;
+
+	}
+	#mod_select{
+		padding-left: 0px;
+		padding-right: 0px;
+		text-align: center;
+	}
+	.myframe{
+		position: absolute;
+		top: 0px;
+	}
+	.img1{
+		display: inline-block;
+		
+	}
+	.imgv{
+		padding-top: 0.14rem;
+	}
+	.imgv2{
+		padding-top: 0.1rem;
+	}
+	.introduce{
+		display: inline-block;
+		width: 0.4rem;
+		height:0.4rem;
+		border-radius: 0.2rem;
+		color: #fff;
+    	background-color: #b94; 
+    	text-align: center;
+    	line-height: 0.4rem;
+    	position: absolute;
+    	top:0.2rem;
+		left: 45%;
+		display: none;
+	}
+	#mymodal{
+		top: 10%;
+	}
+	.footer{
+		background-color: rgb(87,88,109);
+		color:white;
+		text-align: center;
+	}
+}
+
+

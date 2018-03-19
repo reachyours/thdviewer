@@ -1,0 +1,72 @@
+.idv{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	float: left;
+	margin-left: 46px;
+	margin-top:50px;
+}
+.editor{
+	width: 500px;
+	height: 500px;
+	border:1px solid black;
+	margin: 0 auto;
+	
+}
+.editors{
+	width: 500px;
+	height: 600px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.ale{
+	position: absolute;
+	left: 26%;
+}
+.edit_sp{
+	display: inline-block;
+	width: 70px;
+
+}
+.edit_inpit{
+	width: 300px;
+	height: 20px;
+	display: inline-block;
+}
+.edit_con{
+	width:500px;
+	height:500px;
+	border: 1px solid black;
+	margin: 0 auto;
+	text-align: center;
+	display: none;
+	margin-top: 100px;
+
+}
+.introduce_area{
+	width: 474px;
+}
+.con{
+	margin-top: 50px;
+}
+.exit{
+	float: right;
+	margin-right: 5px;
+}
+.sure{
+	margin-top: 20px;
+}
+.ale img{
+	width: 200px;
+	height: 200px;
+}
+.dis{
+	display: none;
+}
+.page span{
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	cursor: pointer;
+}

@@ -1,0 +1,61 @@
+@media (min-width: 768px) and (max-width:992px) {
+    .logo img{
+		height: 1rem;
+	}  
+	           
+}
+
+/* 手机 */
+@media (max-width:767px) {
+	.logo img{
+		height: 0.5rem;
+	}
+	.mod_sel{
+		text-align: center;
+		height: 300px;
+		background-color: rgba(212,236,153,0.5);
+	}
+	.p1{
+		width: 200px;
+		height: 30px;
+		line-height: 30px;
+		margin:0 auto;
+		border: 1px solid rgba(51,51,51,.5);
+		border-radius: 5px;
+		margin-top: 70px;
+	}
+	.p2{
+		width: 200px;
+		height: 30px;
+		line-height: 30px;
+		margin:0 auto;
+		border: 1px solid rgba(51,51,51,.5);
+		border-radius: 5px;
+		margin-top: 50px;
+	}
+}
+@media (min-width:993px){
+	.mod_sel{
+		text-align: center;
+		height: 300px;
+		background-color: rgba(212,236,153,0.5);
+	}
+	.p1{
+		width: 200px;
+		height: 30px;
+		line-height: 30px;
+		margin:0 auto;
+		border: 1px solid rgba(51,51,51,.5);
+		border-radius: 5px;
+		margin-top: 70px;
+	}
+	.p2{
+		width: 200px;
+		height: 30px;
+		line-height: 30px;
+		margin:0 auto;
+		border: 1px solid rgba(51,51,51,.5);
+		border-radius: 5px;
+		margin-top: 50px;
+	}
+}

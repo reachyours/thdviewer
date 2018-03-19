@@ -1,0 +1,69 @@
+body{
+
+	background-size:100%;
+	
+
+}
+
+
+@media (min-width: 768px) and (max-width:992px) {
+	#lefts{
+		position: fixed;
+		font-size: 40px;
+		color: white;
+		z-index: 1000;
+	}
+	#rights{
+		position: fixed;
+		font-size: 40px;
+		float: right;
+		right: 0px;
+		color: white;
+		z-index: 1000;
+	}    
+	#myframes{
+		margin-top: 560px;
+	}                       
+}
+#myframes{
+	padding-left: 0px;
+	padding-right: 0px;
+	
+}
+/* 手机 */
+@media (max-width:767px) {
+	#lefts{
+		position: fixed;
+		font-size: 25px;
+		color: white;
+		color: white;
+	}
+	#rights{
+		position: fixed;
+		font-size:25px;
+		float: right;
+		right: 0px;
+		color: white;
+	}
+	#myframes{
+		margin-top: 270px;
+	} 
+
+}
+@media (min-width:993px) {
+	#lefts{
+		position: fixed;
+		font-size: 50px;
+		color: white;
+	}
+	#rights{
+		position: fixed;
+		font-size: 50px;
+		float: right;
+		right: 0px;
+		color: white;
+	}
+	#myframes{
+		margin-top: 760px;
+	} 
+}

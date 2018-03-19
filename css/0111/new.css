@@ -1,0 +1,51 @@
+.img1{
+	height:128px;
+}
+.back{
+	
+	color: red;
+	display: none;
+
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 9999;
+}
+.back1{
+	color: red;
+	display: none;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 9999;
+}
+
+.myframe{
+	display: none;
+}
+#mod_select button{
+	font-size:0.6rem;
+}
+#d3_img{
+	display: none;
+}
+.img2{
+	height: 320px;
+}
+.backimg{
+	height: 1.5rem;
+
+}
+#mod_360{
+	/*background-color:*/
+}
+.mod_btn1{
+	width: 1.5rem;
+}
+.mod_btn2{
+	width: 1.5rem;
+}
+.mod_btn1{
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
